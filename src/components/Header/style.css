@@ -1,0 +1,54 @@
+h1 {
+  font-size: 40px;
+  letter-spacing: 15px;
+}
+
+header li a {
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+header {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  box-shadow: 1px 1px 5px black;
+}
+
+header a {
+  color: black;
+  opacity: 70%;
+}
+
+header svg {
+  font-size: 30px;
+}
+
+header nav {
+  width: 100%;
+  margin-top: 10px;
+}
+
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+header li {
+  list-style: none;
+  margin-right: 12px;
+}
+
+header li a:hover {
+  letter-spacing: 4px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid black;
+}
