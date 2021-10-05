@@ -14,10 +14,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  opacity: 100%;
-}
-
 main {
   background-color: gray;
   margin: 67px 0;
