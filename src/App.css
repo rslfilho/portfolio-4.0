@@ -15,5 +15,9 @@ a:hover {
 }
 
 main {
-  margin-top: 67px;
+  background-color: gray;
+  margin: 67px 0;
+  width: 100%;
+  height: calc( 100vh - 134px);
+  padding: 20px;
 }

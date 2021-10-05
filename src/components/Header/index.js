@@ -9,9 +9,9 @@ const Header = () => {
   const renderMenu = () => (
     <nav>
       <ul>
-        <li><Link to="/perfil">Perfil</Link></li>
-        <li><Link to="/skills">Skills</Link></li>
-        <li><Link to="/projects">Projetos</Link></li>
+        <li><Link to="/perfil" onClick={ () => setMenu(!menu) }>Perfil</Link></li>
+        <li><Link to="/skills" onClick={ () => setMenu(!menu) }>Skills</Link></li>
+        <li><Link to="/projects" onClick={ () => setMenu(!menu) }>Projetos</Link></li>
       </ul>
     </nav>
   )
