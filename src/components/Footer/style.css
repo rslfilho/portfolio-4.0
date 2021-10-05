@@ -1,13 +1,14 @@
 footer {
   background-color: white;
   width: 100%;
-  position: fixed;
   bottom: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 30px;
   box-shadow: -1px -1px 5px black;
+  position: fixed;
+  z-index: 1;
 }
 
 footer a {
@@ -34,3 +35,14 @@ footer a {
   flex-grow: 2;
   padding-left: 20px;
 }
+
+/* footer:after {
+  border: 2px solid black;
+  content: "";
+  width: 150px;
+  height: 150px;
+  top: -100px;
+  right: -50px;
+  position: absolute;
+  z-index: -1;
+} */

@@ -6,6 +6,10 @@
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+body {
+  background-color: gray;
+}
+
 a {
   text-decoration: none;
 }
@@ -21,3 +25,23 @@ main {
   height: calc( 100vh - 134px);
   padding: 20px;
 }
+/* 
+main:before {
+  border: 2px solid white;
+  content: "";
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -50px;
+  left: -50px;
+}
+
+main:after {
+  border: 2px solid white;
+  content: "";
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+} */
