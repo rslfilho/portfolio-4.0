@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from '../components/Header'
 
-const Home = () => (
+const Projects = () => (
   <div>
     <Header />
     <main>
-      Home
+      Projects
     </main>
   </div>
 );
 
-export default Home;
+export default Projects;

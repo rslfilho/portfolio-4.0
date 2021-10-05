@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from '../components/Header'
 
-const Home = () => (
+const Perfil = () => (
   <div>
     <Header />
     <main>
-      Home
+      Perfil
     </main>
   </div>
 );
 
-export default Home;
+export default Perfil;

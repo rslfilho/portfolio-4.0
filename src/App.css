@@ -13,3 +13,7 @@ a {
 a:hover {
   opacity: 100%;
 }
+
+main {
+  margin-top: 67px;
+}
